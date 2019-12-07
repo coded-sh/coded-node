@@ -1,0 +1,22 @@
+{
+  "name": "coded-node",
+  "version": "0.0.1",
+  "description": "Node for coded.sh",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "data-store": "^3.1.0",
+    "network": "^0.4.1",
+    "parse": "^2.6.0",
+    "parse-server": "^3.7.2",
+    "polka": "^0.5.2",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0"
+  }
+}
